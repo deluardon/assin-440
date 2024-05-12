@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body>
+    <main class="bg-[#F8F8F8] ">
+       <div class=" w-96 h-96 text-center mx-auto">
+        <h1>wellCome to my count app page </h1>
+        <p onclick="clickMe()" id="count" class="text-3xl text-black">0</p>
+        <div class="flex gap-7 justify-center">
+            <button onclick="clickMe()" id="plus-btn" class="btn btn-secondary ">+</button>
+                 <button id="minus-btn" class="btn btn-secondary ">-</button>
+            <!-- <button>reset</button> -->
+        </div>
+       </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
